@@ -20,6 +20,6 @@ This module is designed to hook SIM card geo, restoring Google Pay on devices us
 ### Usage:
 By default, module uses Georgia.
 
-You can switch to the carrier details of another country. Go to the module folder and edit the MCC, MNC, ISO, and NAME in the config.conf file. Restart the Google Play Services process.
+You can switch to the carrier details of another country. Go to the module folder and edit the MCC, MNC, ISO, NAME in the config.conf file. Restart the Google Play Services process.
 You can find the necessary carrier information on this [website](https://en.wikipedia.org/wiki/Mobile_country_code).
 
