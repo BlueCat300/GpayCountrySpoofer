@@ -7,6 +7,7 @@
 [![GitHub Release Date](https://img.shields.io/github/release-date/BlueCat300/GpayCountrySpoofer)](https://github.com/Xposed-Modules-Repo/ru.bluecat.novpndetectenhanced/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram)](https://t.me/lsposed_workshop)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram)](https://t.me/lsposed_workshop_forum)
+[![4PDA](https://img.shields.io/badge/4PDA-Topic-blue)](https://4pda.to/forum/index.php?showtopic=915158&view=findpost&p=145151747)
 [![Donate](https://img.shields.io/badge/Donate_Form-blue)](https://pay.cloudtips.ru/p/85f8cf00)
 </div>
 
