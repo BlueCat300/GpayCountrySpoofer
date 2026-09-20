@@ -14,8 +14,8 @@ using zygisk::Api;
 using zygisk::AppSpecializeArgs;
 using zygisk::ServerSpecializeArgs;
 
-#define CONFIG_FILE_PATH "/data/adb/modules/gpay_country_spoofer/config.conf"
 #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, "GpayCountrySpoofer", __VA_ARGS__)
+#define CONFIG_FILE_PATH "/data/adb/modules/gpay_country_spoofer/config.conf"
 #define MAIN_PROCESS "com.google.android.gms"
 
 typedef void (*T_Callback)(void *, const char *, const char *, uint32_t);
@@ -175,7 +175,7 @@ public:
         configString.clear();
     }
 
-    void postAppSpecialize(const zygisk::AppSpecializeArgs *args) override {
+    void postAppSpecialize(const AppSpecializeArgs *args) override {
         if (isGms && pkgName == MAIN_PROCESS && !configuration.empty()) {
             LOGD("Processing: %s", pkgName.c_str());
             doHook();
