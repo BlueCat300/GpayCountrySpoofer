@@ -9,7 +9,6 @@
 #include "zygisk.hpp"
 #include "shadowhook.h"
 
-using namespace std::ranges;
 using std::string;
 using zygisk::Api;
 using zygisk::AppSpecializeArgs;
